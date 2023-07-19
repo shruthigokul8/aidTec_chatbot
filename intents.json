@@ -1,0 +1,23 @@
+{"intents": [
+
+    {"tag": "greeting",
+     "patterns": [ "Hi", "Hello", "Hey"],
+     "responses": ["Hi there", "Hello", "Hi :)","Hi, how are you?"]
+    },
+    {"tag": "name",
+     "patterns": ["what's your name?", "who are you?"],
+     "responses": ["I’m Proton, an AI-assisted chatbot! I am here to help you with your queries."]
+    },
+    {"tag": "wellness",
+     "patterns": ["how are you?", "how are you doing?"],
+     "responses": ["I’m fine, thanks for asking."]
+    },
+    {"tag": "goodbye",
+     "patterns": ["bye", "see you later", "goodbye", "nice chatting to you, bye", "till next time"],
+     "responses": ["Bye! Come back again soon!", "Bye! See you later!"]
+    },
+    {"tag": "funny",
+     "patterns": ["Can you tell me a joke?", "Can you tell jokes?"],
+     "responses": ["Oh yes! "," "]
+    }
+]}
